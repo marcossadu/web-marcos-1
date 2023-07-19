@@ -39,13 +39,6 @@ h4 {
 }
 /* --------------------------------- HEADER --------------------------------- */
 
-.navbar {
-  background-color: #003d5f;
-}
-.navbar-collapse {
-flex-grow:0;
-}
-
 .navbar-brand {
   font-size: 1.7rem!important;
 }
@@ -54,10 +47,26 @@ flex-grow:0;
   font-size: 1.2rem;
   
 }
+/* --------------------------------- HEADER --------------------------------- */
 
+.navbar {
+  background-color: #003d5f;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-brand {
+  font-size: 1.5rem!important;
+}
+
+.text-white {
+  font-size: 1.2rem;
+  
+}
 .hamburguerX {
   margin-left: 70px;
 }
+
 
 /* ------------------------------ MAIN SECTION ------------------------------ */
 .container_main {
@@ -86,9 +95,9 @@ flex-grow:0;
 
 
 .container_main h1 {
-  font-size: 4rem!important;
+  font-size: 3rem;
   font-weight: 400;
-  margin-top: 2.5rem!important;
+  margin-top: 5.5rem;
 }
 
 .container_main p {
@@ -136,7 +145,7 @@ flex-grow:0;
   padding: 60px 30px;
   position: relative;
   text-align: center;
-  height: 500px;
+  height: 300px;
 }
 
 .container_especialidades1::before {
@@ -239,18 +248,21 @@ flex-grow:0;
 /* ------------------------------- FORMULARIO ------------------------------- */
 
 .container_form {
-  background-color: white;
-  padding: 60px 13rem!important;
+  background-color: rgb(255, 255, 255);
+  padding: 60px 30px;
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  gap: 32px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .container_form label,
 .container_form p {
   color: black;
   font-size: 0.9rem;
+  padding-right:56px
 }
 
 .container_form form {
@@ -297,7 +309,7 @@ flex-grow:0;
   .container_main {
     position: relative;
     height: 95vh;
-    padding: 66px 30px;
+    padding: 120px 30px;
     width: 100%;
     padding-left: 10%;
   }
@@ -416,7 +428,7 @@ flex-grow:0;
 
   .container_emerita button {
     width: auto;
-    font-size: 0.7rem;
+    font-size: 1rem;
     border: 2px solid var(--azulClaro);
     margin-top: 20px;
   }
@@ -461,23 +473,25 @@ flex-grow:0;
     /* padding: 50px; */
   }
 
+  .h2_clientes{
+
+    margin-right: 30px;
+  }
+  
+
   .container_form {
     display: flex;
-    flex-direction: row-reverse!important;
+    flex-direction: row-reverse;
     /* background-color: black; */
+    padding: 60px 30px;
   }
 
  
-
+}
   /* ---------------------------- FORMULARIO MOBILE --------------------------- */
   
-}
 
-.container_form {
-  display: flex;
-  flex-direction: column;
-  padding: 60px 30px;
-}
+
 
 .btn a {
   color: white;

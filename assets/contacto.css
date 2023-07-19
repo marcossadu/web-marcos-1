@@ -10,7 +10,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Merriweather";
+  font-family: "Rufina";
   color: white;
 }
 
@@ -45,7 +45,7 @@ max-width: 78%;
 }
 
 .navbar-brand {
-  font-size: 1.7rem!important;
+  font-size: 1.5rem!important;
 }
 
 .text-white {
@@ -121,11 +121,7 @@ flex-grow:0
   }
 /* --------------------------- TESTIMONIAL SECTION -------------------------- */
 
-.img-mapa{
 
-    margin-top:10vh;
-    width:220vh;
-}
 
 
 .container_testimonial p:first-child {
@@ -274,6 +270,13 @@ flex-grow:0
 
 
 @media (min-width: 1280px) {
+
+  .img-fluid{
+
+    width:100%
+  }
+ 
+
 
   .formulario {
     padding: 60px 30px!important;
@@ -443,6 +446,7 @@ flex-grow:0
     /* background-color: black; */
   }
 
+ 
 
   /* --------------------------------- FOOTER --------------------------------- */
 }

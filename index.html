@@ -47,57 +47,58 @@
         </div>
     </nav> -->
     <nav
-      class="navbar navbar-expand-lg fixed-top p-4 d-flex justify-content-between"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html"
-          >Bufete Sánchez Meya</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav">
+    class="navbar navbar-expand-lg fixed-top  p-4 d-flex justify-content-between"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html"
+        >Bufete Sánchez Meya</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon m-"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-white"
+              aria-current="page"
+              href="servicios.html"
+              >SERVICIOS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="QuienesSomos.html"
+              >QUIENES SOMOS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="nuestraHistoria.html"
+              >NUESTRA HISTORIA</a
+            >
+          </li>
             <li class="nav-item">
-              <a
-                class="nav-link active text-white"
-                aria-current="page"
-                href="servicios.html"
-                >SERVICIOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="QuienesSomos.html"
-                >QUIENES SOMOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="nuestraHistoria.html"
-                >NUESTRA HISTORIA</a
-              >
-            </li>
-              <li class="nav-item">
-              <a class="nav-link text-white" href="galeria.html"
-                >GALERIA</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contacto.html"
-                >CONTACTO</a
-              > 
-            </li>
-          </ul>
-        </div>
+            <a class="nav-link text-white" href="galeria.html"
+              >GALERIA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contacto.html"
+              >CONTACTO</a
+            > 
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+
 
     <!-- ---------------------------- MAIN SECTION ----------------------------- -->
     <section id="main_section" class="container_main">
@@ -146,7 +147,7 @@ En  Bufete Sánchez Meya hemos sido evaluados por Emérita Legal. Esto ha permit
 
     <!-- ------------------------ PRINCIPALES CLIENTES ------------------------- -->
     <section class="container_clientes">
-      <h2>Nuestros principales clientes</h2>
+      <h2 class="h2_clientes">Nuestros principales clientes</h2>
       <div class="container_img_clientes">
         <img src="./assets/images/catalana-occidente.png" alt="cliente1" />
         <img src="./assets/images/adeslas.jpg" alt="cliente2" />
@@ -155,9 +156,9 @@ En  Bufete Sánchez Meya hemos sido evaluados por Emérita Legal. Esto ha permit
     </section>
 
     <!-- ----------------------- FORMULARIO DE CONTACTO ------------------------ -->
-    <section id="contacto" class="container_form">
+    <section id="contacto" class="container_form formulario">
       <div>
-        <h4>Formulario de contacto de Bufete Sánchez Meya</h4>
+        <h4>Formulario de contacto</h4>
         <p>
           Rellene el formulario para recibir asesoriamineto jurídico
           personalizado con nuestro equipo de abogados.
@@ -173,7 +174,7 @@ En  Bufete Sánchez Meya hemos sido evaluados por Emérita Legal. Esto ha permit
           Avenida de Sarriá 30 6º 1ª, Barcelona
         </p>
       </div>
-
+    
       <!-- ----------------------------- FORMULARIO ------------------------------ -->
       <div>
         <form style="margin-right: 2rem" action="">
@@ -215,8 +216,8 @@ En  Bufete Sánchez Meya hemos sido evaluados por Emérita Legal. Esto ha permit
               rows="3"
             ></textarea>
           </div>
-          <div style="display: flex;">
-            <p style="padding-right: 120px">
+          <div style="display: flex; flex-direction: column;">
+            <p >
               This site is protected by reCAPTCHA and the Google
               <span class="form_bold">Privacy Policy</span> and
               <span class="form_bold">Terms of Service</span> apply.
