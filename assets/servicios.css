@@ -126,38 +126,48 @@ max-width: 78%;
     margin-left: 70px;
   }
 /* --------------------------- TESTIMONIAL SECTION -------------------------- */
+.container_testimonial1 {
 
-.container_testimonial {
-  background-color: rgb(214, 214, 214);
-  padding: 60px 30px;
-  width: 100%;
+  position: relative;
+    height: 75vh!important;
+    padding: 93px 22px;
+    width: 100%;
+ 
+  /* padding: 60px 30px;
   display: flex;
-  text-align: right;
-  
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 0%;
+  text-align: center;
+  background-image: url(./images/IMG_2875.jpg); 
+  position:relative                                     */
+
+}
+.container_testimonial1::before{
+
+ /* background-image: url(./images/IMG_2875.jpg);
+background-position: 20% center;
+background-size: cover;
+opacity: 0.3; */
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url(./images/IMG_2875.jpg);
+background-size: cover;
+background-position: 30% center; /* Ajusta el valor para mover la imagen */
+opacity: 0.5!important; /* Ajusta la opacidad según tu preferencia */
+z-index: -4;
 }
 
-.container_testimonialDiv{
-margin-top:10px;
-  margin-left: 48%;
-
-}
-.container_testimonial h3:first-child{
-
-  color:black
-}
 
 
 
-.container_testimonial p:first-child {
-  font-size: 1.6rem;
-  color: rgb(41, 41, 41);
-  font-weight: 700;
-}
 
-.container_testimonial p:last-child {
-  color: rgb(41, 41, 41);
-  font-size: 1.2rem;
-}
+
+
 
 /* ----------------------------- ESPECIALIDADES ----------------------------- */
 
@@ -374,14 +384,19 @@ margin-top:10px;
 
   /* -------------------------- TESTIMONIALS SECTION -------------------------- */
   .container_testimonial1 {
-    background-color: rgb(255, 255, 255);
-    padding: 60px 30px;
+   height: 45vh!important;
+    padding: 115px 120px;
     display: flex;
     flex-direction: column;
     padding-left: 30%!important;
   text-align: right!important;
+ 
   }
-
+  .container_testimonial1::before{
+    opacity: 0.5;
+    background-image: url(./images/IMG_2875.jpg);
+  }
+ 
   /* -------------------------------- ESPECIALIDADES ------------------------------- */
   .container_especialidades1 p {
     margin-top: 20px;
@@ -522,12 +537,3 @@ margin-top:10px;
   color:#0089d1
 }
 
-.container_testimonial1 {
-  background-color: rgb(255, 255, 255);
-  padding: 60px 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-left: 0%;
-  text-align: center;
-}

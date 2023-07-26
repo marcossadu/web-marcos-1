@@ -69,13 +69,13 @@
 </nav>
   <section>
 
-    <img src="./assets/images/Captura de pantalla 2023-07-18 151842.png" class="img-fluid">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.901930205619!2d2.140867718171264!3d41.39071450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498782fe3e335%3A0x72ba34d9d8e0be09!2sBufete%20S%C3%A1nchez%20Meya!5e1!3m2!1ses!2ses!4v1690297021743!5m2!1ses!2ses" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     
   </section>
   <section id="contacto" class="container_form">
     <div>
-      <h4>Formulario de contacto de Bufete Sánchez Meya</h4>
+      <h4>Formulario de contacto </h4>
       <p>
         Rellene el formulario para recibir asesoriamineto jurídico
         personalizado con nuestro equipo de abogados.
@@ -94,7 +94,9 @@
 
     <!-- ----------------------------- FORMULARIO ------------------------------ -->
     <div>
-      <form style="margin-right: 2rem" action="">
+      <form style="margin-right: 2rem" action="https://formspree.io/f/mgejvzgy"
+      method="POST"
+      >
         <div style="display: flex; gap: 15px">
           <div
             style="display: flex; flex-direction: column; width: 40%"
@@ -105,6 +107,7 @@
             >
             <input
               type="text"
+              name="nombre"
               class="form-control"
               id="exampleFormControlInput1"
             />
@@ -118,6 +121,7 @@
             >
             <input
               type="email"
+              name="email"
               class="form-control"
               id="exampleFormControlInput2"
             />
@@ -129,6 +133,7 @@
           >
           <textarea
             class="form-control"
+            name="message"
             id="formControlInput3"
             rows="3"
           ></textarea>
@@ -141,7 +146,7 @@
           </p>
           <button
             style="width: 6rem; height: fit-content;"
-            type="button"
+            type="submit"
             class="btn btn-outline-primary"
           >
             ENVIAR
