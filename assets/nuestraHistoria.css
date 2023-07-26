@@ -327,14 +327,14 @@ flex-direction: column;
     margin-top: 140px;
     font-size: 3.8rem;
     font-weight: 400;
-    padding-right: 50%;
+    padding-right: 60%;
   }
 
   .container_main p {
     margin-top: 30px;
     margin-bottom: 40px;
     font-size: 1.3rem;
-    padding-right: 50%;
+    padding-right: 60%;
 
     font-weight: 300;
   }
@@ -506,6 +506,11 @@ flex-direction: column;
     flex-direction: row-reverse!important;
     /* background-color: black; */
   }
+  .container_form1{
+
+    width: 70vh;
+  }
+
 }
 
 .container_form {

@@ -117,7 +117,8 @@
 
     <!-- ----------------------------- FORMULARIO ------------------------------ -->
     <div>
-      <form style="margin-right: 2rem" action="">
+      <form class="container_form1" style="margin-right: 2rem" action="https://formspree.io/f/mgejvzgy"
+      method="POST">
         <div style="display: flex; gap: 15px">
           <div
             style="display: flex; flex-direction: column; width: 40%"
@@ -128,6 +129,7 @@
             >
             <input
               type="text"
+              name="Nombre"
               class="form-control"
               id="exampleFormControlInput1"
             />
@@ -140,6 +142,7 @@
               >Email</label
             >
             <input
+              name="Email"
               type="email"
               class="form-control"
               id="exampleFormControlInput2"
@@ -151,6 +154,7 @@
             >Descripción</label
           >
           <textarea
+            name="Mensaje"
             class="form-control"
             id="formControlInput3"
             rows="3"
@@ -158,13 +162,12 @@
         </div>
         <div style="display: flex; flex-direction: column;">
           <p>
-            This site is protected by reCAPTCHA and the Google
-            <span class="form_bold">Privacy Policy</span> and
-            <span class="form_bold">Terms of Service</span> apply.
+            <a href="./PolíticaDePrivacidad.html">Politica de privacidad de Bufete Sanchez Meya</a>
+           
           </p>
           <button
             style="width: 6rem; height: fit-content;"
-            type="button"
+            type="submit"
             class="btn btn-outline-primary"
           >
             ENVIAR

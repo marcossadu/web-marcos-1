@@ -388,12 +388,13 @@ z-index: -4;
     padding: 115px 120px;
     display: flex;
     flex-direction: column;
-    padding-left: 30%!important;
+    padding-left: 40%!important;
   text-align: right!important;
+  
  
   }
   .container_testimonial1::before{
-    opacity: 0.5;
+    opacity: 0.5!important;
     background-image: url(./images/IMG_2875.jpg);
   }
  
@@ -424,7 +425,7 @@ z-index: -4;
 
   /* -------------------------------- SERVICIOS ------------------------------- */
   .container_servicios {
-    padding: 5% 8%;
+    padding: 5% 22%;
     background-color: var(--grisFondo);
   }
 
@@ -518,6 +519,11 @@ z-index: -4;
     flex-direction: row-reverse!important;
     /* background-color: black; */
   }
+  .container_form1{
+
+    width: 70vh;
+  }
+  
 
 
   /* --------------------------------- FOOTER --------------------------------- */

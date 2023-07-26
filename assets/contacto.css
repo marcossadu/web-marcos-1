@@ -445,7 +445,10 @@ flex-grow:0
     flex-direction: row-reverse!important;
     /* background-color: black; */
   }
+  .container_form1{
 
+    width: 70vh;
+  }
  
 
   /* --------------------------------- FOOTER --------------------------------- */
